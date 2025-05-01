@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Marhey:wght@300..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    color: whitesmoke;
+    font-size: 2rem;
+    background-color: #1c1c1c;
+}
+
+.imagemHeader {
+    width:6rem;
+    height:6rem;
+    padding-top: 0.4rem;
+}
+
+.title {
+    margin:1rem;
+}
+
+main {
+    background-color: #fafafa;
+    margin: 1rem;
+}
