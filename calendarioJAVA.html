@@ -12,9 +12,10 @@
         <img src="assets/java_logo-removebg-preview.png" class="imagemHeader" alt="Imagem da logo Java">
     </header>
     <main>
-        <p class="Introducao">Calendario indo de Maio até Setembro de 2025 que irei utilizar para testar meu HTML,CSS e JavaScript e começar a estudar JAVA</p>
+        <p class="Introducao Calendarioflex">Calendario indo de Maio até Setembro de 2025 que irei utilizar para testar meu <strong><abbr title="HyperText Markup Language ">HTML</abbr>,<abbr title="Cascading Style Sheets">CSS</abbr> e JavaScript </strong>e começar a estudar <strong>JAVA</strong></p>
+        <button onclick="mesAnterior()">←</button>
         <!--Mês de Maio-->
-        <table>
+        <table id="Maio" style="display: block;">
             <thead class="Calendario">
                 <tr>
                     <th colspan="7" class="NomeDoMes">Maio</th>
@@ -95,7 +96,7 @@
             </tbody>
         </table>
         <!--Mês de Junho-->
-        <table>
+        <table id="Junho" style="display: none;">
             <thead class="Calendario">
                 <tr>
                     <th colspan="7" class="NomeDoMes">Junho</th>
@@ -175,7 +176,7 @@
             </tbody>
         </table>
         <!--Mês de Julho-->
-        <table>
+        <table id="Julho" style="display: none;">
             <thead class="Calendario">
                 <tr>
                     <th colspan="7" class="NomeDoMes">Julho</th>
@@ -221,7 +222,7 @@
                     <td class="diaUtil">18</td>
                     <td class="FimDeSemana">19</td>
                 </tr>
-                <!--Junho Semana 4-->
+                <!--Julho Semana 4-->
                 <tr class="s4">
                     <td class="FimDeSemana">20</td>
                     <td class="diaUtil">21</td>
@@ -231,7 +232,7 @@
                     <td class="diaUtil">25</td>
                     <td class="FimDeSemana">26</td>
                 </tr>
-                <!--Junho Semana 5-->
+                <!--Julho Semana 5-->
                 <tr class="s5">
                     <td class="FimDeSemana">27</td>
                     <td class="diaUtil">28</td>
@@ -255,7 +256,7 @@
             </tbody>
         </table>
         <!--Mês de Agosto-->
-        <table>
+        <table id="Agosto" style="display: none;">
             <thead class="Calendario">
                 <tr>
                     <th colspan="7" class="NomeDoMes">Agosto</th>
@@ -337,7 +338,7 @@
             </tbody>
         </table>
         <!--Mês de Setembro-->
-        <table>
+        <table id="Setembro" style="display: none;">
             <thead class="Calendario">
                 <tr>
                     <th colspan="7" class="NomeDoMes">Setembro</th>
@@ -365,7 +366,7 @@
                 </tr>
                 <!--Setembro Semana 2-->
                 <tr class="s2">
-                    <td class="FimDeSemana feriado">7</td>
+                    <td class="FimDeSemana">7</td>
                     <td class="diaUtil">8</td>
                     <td class="diaUtil">9</td>
                     <td class="diaUtil">10</td>
@@ -416,9 +417,11 @@
                 </tr>
             </tbody>
         </table>
+        <button onclick="proximoMes()">→</button>
     </main>
     <footer>
 
     </footer>
+    <script src="calendario.js"></script>
 </body>
 </html>

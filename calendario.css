@@ -15,6 +15,7 @@ header {
     color: whitesmoke;
     font-size: 2rem;
     background-color: #1c1c1c;
+    align-items: center;
 }
 
 .imagemHeader {
@@ -27,7 +28,53 @@ header {
     margin:1rem;
 }
 
+.Introducao {
+     font-size: 2rem;
+}
 main {
     background-color: #fafafa;
     margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    table-layout: fixed;
+    width: 60rem;
+}
+td,th{
+    padding: 0.1em;
+}
+
+table tr {
+    background-color: #dedede;
+}
+
+.OutroMes {
+    color: #686969;
+}
+
+.diaUtil {
+    color: #292929;
+}
+
+.feriado {
+    background-color: #b5c5b7;
+}
+
+.FimDeSemana {
+    color: #3c4d3f;
+}
+
+button {
+    background-color: #1c1c1c;
+    color: #dedede;
+    border-radius: 100px;
+    font-size: 3rem;
+    margin: 2rem;
 }
