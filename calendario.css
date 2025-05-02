@@ -3,7 +3,8 @@ body {
     font-family: "Outfit", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    background-color: #fafafa;
+    background-image: url(assets/Design\ sem\ nome.jpg);
+    background-size: cover;
     padding: 0;
     margin: 0;
     display: flex;
@@ -12,7 +13,7 @@ body {
 
 header {
     display: flex;
-    color: whitesmoke;
+    color: #dedede;
     font-size: 2rem;
     background-color: #1c1c1c;
     align-items: center;
@@ -22,6 +23,7 @@ header {
     width:6rem;
     height:6rem;
     padding-top: 0.4rem;
+    padding-bottom: 0.5rem;
 }
 
 .title {
@@ -29,10 +31,25 @@ header {
 }
 
 .Introducao {
-     font-size: 2rem;
+    margin-left: 2rem;
 }
-main {
+
+.Anotacoes {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    width: 35rem;
+    height: 28rem;
+    resize: none;
+    margin-left: 5rem;
+    border-radius: 15px;
+    border-width: 0.5rem;
+    border-color: #1c1c1c;
     background-color: #fafafa;
+    color: #3c4d3f;
+}
+
+main {
+    background-color: transparent;
     margin: 1rem;
     display: flex;
     align-items: center;
